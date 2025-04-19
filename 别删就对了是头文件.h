@@ -5,7 +5,7 @@
 void punish()
 {
     srand(time(0));
-    int chose=rand()%5;
+    int chose=rand()%6;
     switch(chose)
     {
         case 0:
@@ -51,6 +51,8 @@ void punish()
         case 4:
         system("start https://www.bilibili.com/video/BV1NE411D7vA?spm_id_from=333.788.recommend_more_video.2&vd_source=597e466ef710fffe8014182bede215d8");
         break;
+        case 5:
+        system("start https://www.bilibili.com/video/BV1NZ4y1j7nw/?share_source=copy_web&vd_source=d1f709afee7dedcab68ca6153fa9e94b");
     }
     
 }

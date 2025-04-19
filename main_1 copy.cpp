@@ -7,6 +7,7 @@
 int main()
 {   
     std::string arr_student[3]={"NULL","NULL","NULL"};
+    
     std::string a[23767];
     int number=0;
     START:
@@ -160,7 +161,9 @@ int main()
             }
             break;
         default:
-            system("start https://www.bilibili.com/video/BV1NZ4y1j7nw/?share_source=copy_web&vd_source=d1f709afee7dedcab68ca6153fa9e94b");
+            punish();
+            goto START;
+            break;
     }
     return 0;
 }
